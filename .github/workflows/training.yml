@@ -1,0 +1,13 @@
+name: Hello World Training 
+
+on: 
+  workflow_dispatch:
+
+jobs: 
+  greet:
+    name: Say hello to user
+    runs-on: ubuntu-latest
+    steps:
+      - name: run echo
+        run: echo "Hello World!" 
+  
